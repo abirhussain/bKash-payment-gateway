@@ -1,0 +1,28 @@
+{
+  "name": "bkash-payment-gateway",
+  "version": "1.0.0",
+  "description": "nodejs module for bKash payment getway integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abirhussain/bKash-payment-gateway.git"
+  },
+  "keywords": [
+    "bKash",
+    "payment",
+    "gateway",
+    "integration"
+  ],
+  "author": "Abir Hussain Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abirhussain/bKash-payment-gateway/issues"
+  },
+  "homepage": "https://github.com/abirhussain/bKash-payment-gateway#readme",
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
