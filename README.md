@@ -1,2 +1,2 @@
 # bKash-payment-gateway
-bKash gateway integration Node module
+bKash payment gateway integration Node module
