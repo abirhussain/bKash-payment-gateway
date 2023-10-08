@@ -1,28 +1,40 @@
 {
-  "name": "bkash-payment-gateway",
-  "version": "1.0.0",
-  "description": "nodejs module for bKash payment getway integration",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abirhussain/bKash-payment-gateway.git"
-  },
-  "keywords": [
-    "bKash",
-    "payment",
-    "gateway",
-    "integration"
-  ],
-  "author": "Abir Hussain Khan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abirhussain/bKash-payment-gateway/issues"
-  },
-  "homepage": "https://github.com/abirhussain/bKash-payment-gateway#readme",
-  "dependencies": {
-    "axios": "^1.5.1"
-  }
+	"name": "bkash-payment-gateway",
+	"version": "1.0.0",
+	"description": "nodejs module for bKash payment getway(PGW) integration",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"directories": {
+		"lib": "lib",
+		"dist": "dist"
+	},
+	"exports": {
+		"default": {
+			"require": "./dist/index.cjs",
+			"default": "./index.js"
+		}
+	},
+	"./package.json": "./package.json",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/abirhussain/bKash-payment-gateway.git"
+	},
+	"keywords": [
+		"bKash",
+		"payment",
+		"gateway",
+		"integration"
+	],
+	"author": "Abir Hussain Khan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/abirhussain/bKash-payment-gateway/issues"
+	},
+	"homepage": "https://github.com/abirhussain/bKash-payment-gateway#readme",
+	"dependencies": {
+		"axios": "^1.5.1"
+	}
 }
